@@ -1,6 +1,6 @@
-g++ my_transe2.cpp -o my_transe2 -pthread -O3 -std=c++11 -march=native
+g++ my_transe.cpp -o my_transe -pthread -O3 -std=c++11 -march=native
 
-./my_transe2
+./my_transe
 
 source activate py3
 
