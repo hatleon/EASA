@@ -632,9 +632,6 @@ void* train_transe(void *con) {
 		}
 		printf("epoch %d %f\n", epoch, res);
 		fflush(stdout);
-		if(epoch % 100 == 0){
-			out_transe(to_string(epoch));
-		}
 	}
 }
 
