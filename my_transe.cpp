@@ -28,8 +28,8 @@ int L1_flag = 1;
 double combination_threshold = 3;
 int combination_restriction = 5000;
 
-string inPath = "../data/";
-string outPath = "../res/";
+string inPath = "./data/";
+string outPath = "./res/";
 
 int *lefHead, *rigHead;
 int *lefTail, *rigTail;
