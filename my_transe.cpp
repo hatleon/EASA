@@ -663,7 +663,6 @@ void out_transe(string iter = "") {
 */
 
 int main() {
-	srand(19961022);
 	init();
 	train_transe(NULL);
 	out_transe();
